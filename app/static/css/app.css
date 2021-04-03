@@ -5,3 +5,38 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.news__item {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    border-top: 5px solid #5ac6ac;
+    border-radius: 8px;
+}
+
+img {
+    object-fit: cover;
+    width: 350px;
+    height: 178px;
+    margin: 5px;
+}
+
+.search-area {
+    margin: 20px;
+}
+
+.news-heading {
+    margin-bottom: 5px;
+}
+
+#search {
+    width: 200px;
+}
